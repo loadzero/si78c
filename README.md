@@ -131,7 +131,7 @@ not use pointers.
 
 `SDL2` is required as a dependency, to install on Ubuntu, do this:
 
-    $ sudo apt-get install libsdl2
+    $ sudo apt-get install libsdl2-dev
 
 To grab the code and build the binary, do this:
 
