@@ -313,7 +313,7 @@ uint8_t        vram[7168];                            //  0x2400
 // Technically the region below is supposed to be a mirror, but AFAICT,
 // that property is not used by the SI code.
 //
-// The 'PLAy' animation does do some oob writes during DrawSprite,
+// The 'Play' animation does do some oob writes during DrawSprite,
 // which effectively do nothing because they end up trying to write to ROM
 //
 // So, as a catchall, we just reserve this area up to the end of the address space.
