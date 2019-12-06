@@ -20,7 +20,7 @@ This was a reasonably large undertaking, requiring many iterations over several
 months, and I would conservatively estimate that around 200 hours of work have
 been put into the project so far.
 
-The original ROM is around 2000 lines of 8085 assembler, all of it game code.
+The original ROM is around 2000 lines of 8080 assembler, all of it game code.
 The final published version of `si78c` is around 1500 lines of game code, 500
 lines of support code, and around 800 lines of comments.
 
@@ -97,7 +97,7 @@ Cycle timing is not particularly accurate, as mentioned, but its not very
 important in this case.
 
 The code will currently only work on little endian systems, as the original
-system (8085) was little endian, and we use the ROM data as is.
+system (8080) was little endian, and we use the ROM data as is.
 
 # Porting
 
