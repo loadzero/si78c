@@ -320,7 +320,7 @@ uint8_t        vram[7168];                            //  0x2400
 
 uint8_t        oob[49152];                            //  0x4000
 
-} __attribute  ((packed));
+} __attribute__((packed,aligned(__alignof__(unsigned int))));
 
 typedef struct Mem Mem;
 
